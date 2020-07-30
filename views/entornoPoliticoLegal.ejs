@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Web site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <style>
+        .fakeimg {
+            height: 200px;
+            background: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <h1 id="Inicio">ALDEA GLOBAL II</h1>
+        <p>Entorno Politico y Legal</p>
+    </div>
+
+    <%- include('partials/nav.ejs')%>
+
+    <div class="row">
+
+        <!--
+    Guatemala
+-->
+        <div class="card text-center col-md">
+            <div class="card-header">
+                <img class="rounded mx-auto d-block" width="280px" src="../../images/banderaGuatemala.jpg" alt="">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">INDIVIDUALISMO VS COLECTIVISMO</h5>
+                <h6>GRÁFICAS O TABLAS</h6>
+
+                <p class="card-text d-flex justify-content-start">
+                    <img class="rounded mx-auto d-block" width="200px" src="../../images/graficaGuatemala.PNG" alt="">
+                <p class="card-text d-flex justify-content-start">
+                <h6>PRESENTACIÓN DE DATOS O INDICADORES</h6>
+                <hr>
+                
+
+                </p>
+
+            </div>
+            <div class="card-footer text-muted">
+                <a href="#Inicio" class="btn btn-primary btn-block">Regresar</a>
+            </div>
+        </div>
+
+        <div class="card text-center col-md">
+            <div class="card-header">
+                <img class="rounded mx-auto d-block" width="240px" src="../../images/banderaPeru.png" alt="">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">INDIVIDUALISMO VS COLECTIVISMO</h5>
+                <h6>GRÁFICAS O TABLAS</h6>
+                <img class="rounded mx-auto d-block" width="200px" src="" alt="">
+                <p class="card-text d-flex justify-content-start">
+                <h6>PRESENTACIÓN DE DATOS O INDICADORES</h6>
+                <hr>
+                
+                </p>
+
+            </div>
+            <div class="card-footer text-muted">
+                <a href="#Inicio" class="btn btn-primary btn-block">Regresar</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!--div class="jumbotron text-center" style="margin-bottom:0">
+        <h4>CONCLUSIONES</h4>
+        <br>
+        <p>
+          
+        </p>
+    </div-->
+
+</body>
+
+</html>
