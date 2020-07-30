@@ -20,6 +20,16 @@ app.get('/home', function (req, res) {
 */
 
 
+app.get( '/entornoComercioInternacional', async  function (req, res) {
+    //res.sendFile(page+'entornoCultural.html');
+    res.render('entornoComercioInternacional')
+});
+
+app.get( '/entornoTecnologicoGeoAmbiental', async  function (req, res) {
+    //res.sendFile(page+'entornoCultural.html');
+    res.render('entornoTecnologicoGeoAmbiental')
+});
+
 app.get( '/entornoPoliticoLegal', async  function (req, res) {
     //res.sendFile(page+'entornoCultural.html');
     res.render('entornoPoliticoLegal')
