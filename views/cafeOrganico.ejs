@@ -6,6 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
@@ -19,51 +23,106 @@
 
 <body>
 
-    <div class="jumbotron text-center" style="margin-bottom:0">
-        <h1 id="Inicio">ALDEA GLOBAL II</h1>
-        <p>Entorno de Comercio Internacional</p>
-    </div>
+    <%- include('partials/head.ejs')%>
 
     <%- include('partials/nav.ejs')%>
 
-    <hr>
-    La caficultura colombiana sigue siendo un sector de especial relevancia para la estabilidad económica y social del
-    país. En este sentido, el presente trabajo documenta de manera breve la elección y de una organización que se dedica
-    a dicha actividad en el mismo se desarrollan varios aspectos organizacionales enfocados a las empresa, y se enfoca
-    la misma en la sostenibilidad económica, social y ambiental, que genere su producto, finalmente se desarrollan unas
-    estrategias que se buscan implementar para tener una transformación productiva y llevar a la organización al ámbito
-    de la internacionalización.
-    <hr>
+    <p class="container">
+        La caficultura colombiana sigue siendo un sector de especial relevancia para la estabilidad económica y social
+        del
+        país. En este sentido, el presente trabajo documenta de manera breve la elección y de una organización que se
+        dedica
+        a dicha actividad en el mismo se desarrollan varios aspectos organizacionales enfocados a las empresa, y se
+        enfoca
+        la misma en la sostenibilidad económica, social y ambiental, que genere su producto, finalmente se desarrollan
+        unas
+        estrategias que se buscan implementar para tener una transformación productiva y llevar a la organización al
+        ámbito
+        de la internacionalización.
+    </p>
+
+    <table class="table table-bordered">
+        <tbody>
+            <tr class="row">
+                <!-- 1  -->
+                <td class="col-md-4">
+                    <string>Nombre de la propuesta innovadora/empresa/reto</string>
+                </td>
+                <td class="col-md-8"><strong>ST. FRANCIS’CAFE</strong></td>
+                <!-- 2  -->
+                <td class="col-md-4"><strong>Descripción de producto y/o servicio</strong></td>
+                <td class="col-md-8"><strong>AFÉ ORGANICO</strong> <br>
+                    Este es el café que crece con estándares y técnicas de
+                    agricultura orgánica libres de pesticidas,
+                    herbicidas y fertilizantes químicos al promover la preservación del bosque, la reducción de la
+                    erosión del suelo y un fuerte ecosistema, entre otras ventajas del hábitat natural.
+                    El resultado de estos cultivos orgánicos es un café de excelente calidad que crea una importancia
+                    cada vez mayor para los consumidores conscientes del medio ambiente.
+                    Manejamos una línea 170 familias caficultoras y se cultiva en diferentes zonas como los son:
+                    Antioquia, Nariño, Huila, Cauca entre otras. Lo que nos permite proveer más de 20 variedades de
+                    café. (FRANCIS'CAFE, SAINT, 2016)
+
+                    Ilustración 1 Café Orgánico (FRANCIS'CAFE, SAINT, 2016)</td>
+                <!-- 3  -->
+                <td class="col-md-4"><strong>Justificación de su selección</strong></td>
+                <td class="col-md-8">Se realiza un estudio de una pequeña variedad de empresas y finalmente se decide
+                    analizar la empresa postulada por un integrante del equipo que hace parte de la misma. Esta empresa
+                    de dedica especialmente a procesar café y debido a que la demanda del café se ha triplicado en los
+                    últimos años nos llamó la atención el estudio de esta organización.</td>
+                <!-- 4  -->
+                <td class="col-md-4"><strong>Fortalezas</strong></td>
+                <td class="col-md-8">Estar en la capacidad de Abastecer la demanda de café Orgánico
+                    Fomentar la buena producción dando una mejor compensación a las familias caficultoras de Colombia.
+                    La recolección de café se hace durante todo el año.
+                    Las condiciones climáticas de Colombia permite que sea el mayor productor de la variedad de café.
+                    Se promueve la idea de consumir más café orgánico que instantán
+                </td>
+                <!-- 5  -->
+                <td class="col-md-4"><strong>Debilidades</strong></td>
+                <td class="col-md-8">Se compite contra el contrabando de la importación de café.
+                    Es un producto de fácil imitación pero se refleja una baja calidad
+                    Se evidencia una mala publicidad respecto a los componentes de cafeína que tiene el producto.
+                </td>
+
+                <!-- 6  -->
+                <td class="col-md-4"><strong>Oportunidades</strong></td>
+                <td class="col-md-8">Es un producto de fácil adquisición para cualquier nivel socioeconómico
+                    Es un producto con alta demanda de ventas
+                    Crecimiento exponencial de los coffesshop en la sociedad
+                    Es una empresa que se encuentra en la adquisición de un sello orgánico internacional
+                    Colombia tiene un escalafón donde califican su café como el más rico del mundo, la empresa podría
+                    posicionar su marca internacionalmente destacando el origen del producto
+
+                </td>
+                <!-- 7  -->
+                <td class="col-md-4"><strong>Amenazas</strong></td>
+                <td class="col-md-8">Alta oferta de bebidas energizantes
+                    El aumento en la creación de nuevas marcas de café
+                    Los factores climáticos pueden afectar la cosecha, debido a que en temporadas de lluvia puede tardar
+                    más la producción.
+                    Probable contagio de Broca o Rolla que se conoce como las plagas que afectan los cultivos.
+                    No se puede entrar fácilmente en un nuevo mercado internacional donde el producto no sea conocido o
+                    atractivo para ser aceptado en una cultu
+                    Debido a las nuevas tendencias de alimentación saludable puede disminuir la cantidad de demanda.
+                    Debido al desconocimiento de los componentes, beneficios, efectos y/o marcas sepuede generar un mito
+                    de consumo.
+
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
     <div class="row">
 
-        <!--
-    Guatemala
--->
+
+
+
+
         <div class="card text-center col-md-4">
             <div class="card-body">
 
-                <p class="card-text d-flex justify-content-start">
-                    <hr>
-                    <strong>Nombre de la propuesta innovadora/empresa/reto</strong>
-                    <hr>
-                    <strong>Descripción de producto y/o servicio</strong>
-                    <hr>
-                    <strong>Justificación de su selección</strong>
-                    <hr>
-                    <strong>PRESENTACIÓN DE DATOS O INDICADORES</strong>
-                    <hr>
-                    <strong>ANÁLISIS Y ARGUMENTACIÓN</strong>
-                    <hr>
-                    <strong>Fortalezas</strong>
-                    <hr>
-                    <strong>Debilidades</strong>
-                    <hr>
-                    <strong>Oportunidades</strong>
-                    <hr>
-                    <strong>Amenazas</strong>
 
-                </p>
             </div>
             <div class="card-footer text-muted">
                 <a href="#Inicio" class="btn btn-primary btn-block">Regresar</a>
@@ -78,39 +137,36 @@
                     <hr>
                     <strong>CAFÉ ORGANICO</strong>
                     <hr>
-                    Este es el café que crece con estándares y técnicas de agricultura orgánica libres de pesticidas,
-                    herbicidas y fertilizantes químicos al promover la preservación del bosque, la reducción de la
-                    erosión del suelo y un fuerte ecosistema, entre otras ventajas del hábitat natural.
-                    El resultado de estos cultivos orgánicos es un café de excelente calidad que crea una importancia
-                    cada vez mayor para los consumidores conscientes del medio ambiente.
-                    Manejamos una línea 170 familias caficultoras y se cultiva en diferentes zonas como los son:
-                    Antioquia, Nariño, Huila, Cauca entre otras. Lo que nos permite proveer más de 20 variedades de
-                    café. (FRANCIS'CAFE, SAINT, 2016)
 
-                    Ilustración 1 Café Orgánico (FRANCIS'CAFE, SAINT, 2016)
 
                     <hr>
-                    <strong>EVOLUCIÓN DE LA BALANZA COMERCIAL con PAÍS 1</strong>
-                <h6>GRÁFICAS O TABLAS</h6>
-                <img class="rounded mx-auto d-block" width="300px"
-                    src="../../images/entornoComercioInternacional/balanzaGuatemala.PNG" alt="">
-                <hr>
-                <strong>PRESENTACIÓN DE DATOS O INDICADORES</strong>
-                <hr>
-                En el 2019 Guatemala registró un déficit en su balanza comercial de un 11,38 de su PIB superior al 2018
-                con un 9,78% del PIB.
-                Pero Guatemala en los últimos años el déficit se ha incrementado tal como en el 2009 que fue de un 17,4%
-                de su PIB.
-                <hr>
-                <strong>ANÁLISIS Y ARGUMENTACIÓN</strong>
-                <hr>
-                En cuanto a Guatemala, si Colombia le exporta el café de ST’FRANCIS le haríamos un daño tanto a nosotros
-                como empresa como a ellos como país debido a que ellos primero deben aumentar sus exportaciones para que
-                los productos no suban de precios y así evitar una presión inflacionaria, pero esto puede variar ya que
-                es un comportamiento indefinido ya que como puede bajar las exportaciones en cualquier momento pueden
-                volver a subir.
-                <hr>
-                <strong>ACUERDOS COMERCIALES VIGENTES</strong>
+                    Se realiza un estudio de una pequeña variedad de empresas y finalmente se decide analizar la empresa
+                    postulada por un integrante del equipo que hace parte de la misma. Esta empresa de dedica
+                    especialmente a procesar café y debido a que la demanda del café se ha triplicado en los últimos
+                    años nos llamó la atención el estudio de esta organización.
+                    <hr>
+                    <strong>PRESENTACIÓN DE DATOS O INDICADORES</strong>
+                    <hr>
+                    En el 2019 Guatemala registró un déficit en su balanza comercial de un 11,38 de su PIB superior al
+                    2018
+                    con un 9,78% del PIB.
+                    Pero Guatemala en los últimos años el déficit se ha incrementado tal como en el 2009 que fue de un
+                    17,4%
+                    de su PIB.
+                    <hr>
+                    <strong>ANÁLISIS Y ARGUMENTACIÓN</strong>
+                    <hr>
+                    En cuanto a Guatemala, si Colombia le exporta el café de ST’FRANCIS le haríamos un daño tanto a
+                    nosotros
+                    como empresa como a ellos como país debido a que ellos primero deben aumentar sus exportaciones para
+                    que
+                    los productos no suban de precios y así evitar una presión inflacionaria, pero esto puede variar ya
+                    que
+                    es un comportamiento indefinido ya que como puede bajar las exportaciones en cualquier momento
+                    pueden
+                    volver a subir.
+                    <hr>
+                    <strong>ACUERDOS COMERCIALES VIGENTES</strong>
                 <h6>GRÁFICAS O TABLAS</h6>
 
                 <hr>
