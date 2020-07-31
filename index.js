@@ -19,6 +19,11 @@ app.get('/home', function (req, res) {
 });
 */
 
+app.get( '/cafeOrganico', async  function (req, res) {
+    //res.sendFile(page+'entornoCultural.html');
+    res.render('cafeOrganico')
+});
+
 app.get( '/entornoinversionExtranjera', async  function (req, res) {
     //res.sendFile(page+'entornoCultural.html');
     res.render('entornoinversionExtranjera')
