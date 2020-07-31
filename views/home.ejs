@@ -5,6 +5,8 @@
     <title>Web site</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/node/pageSchool/public/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -13,20 +15,21 @@
         .fakeimg {
             height: 200px;
             background: #aaa;
+        
         }
     </style>
 </head>
 
 <body>
-    
+
     <div class="jumbotron text-center" style="margin-bottom:0">
         <h1 id="Inicio">ALDEA GLOBAL II</h1>
-        <p>Inicio</p> 
+        <p>INDICADORES ECONOMICOS</p>
     </div>
 
-    
-        <%- include('partials/nav.ejs')%>
-    
+
+    <%- include('partials/nav.ejs')%>
+
 
     <div class="row">
         <div class="card text-center col-md">
@@ -383,6 +386,24 @@
             <div class="card-footer text-muted">
                 <a href="#Inicio" class="btn btn-primary btn-block">Regresar</a>
             </div>
+        </div>
+    </div>
+    <div class="card" style="width: 100%;">
+       
+        <div class="card-body">            
+            <p class="card-text">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img class="rounded mx-auto d-block" width="400px" src="images/clone.png">
+                        
+                    </div>
+                    <div class="col-md-7">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="video/XiaoYing_Video_1596158462046.mp4" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </p>            
         </div>
     </div>
 
