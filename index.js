@@ -18,6 +18,9 @@ app.get('/home', function (req, res) {
     res.sendFile(dir+'home.html');
 });
 */
+app.get('/planMercadeo',(req,res)=>{   
+    res.render('planMercadeo')
+})
 
 app.get( '/cafeOrganico', async  function (req, res) {
     //res.sendFile(page+'entornoCultural.html');
